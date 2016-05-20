@@ -6,6 +6,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('about');
+  this.route('hotelMenu');
+  this.route('contact');
+  this.route('manna-footer');
 });
 
 export default Router;
